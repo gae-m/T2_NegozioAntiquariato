@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d3acf6-e190-4aa7-9b37-a30d4b6624e0" name="Changes" comment="Created all class files">
+    <list default="true" id="59d3acf6-e190-4aa7-9b37-a30d4b6624e0" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/database/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/ProdottoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/PropostaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Proposta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/StatoProposta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T2_NegozioAntiquariato.iml" beforeDir="false" afterPath="$PROJECT_DIR$/T2_NegozioAntiquariato.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boundary/BGestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boundary/BGestore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CartaDiCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/CartaDiCredito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/PropostaDiVendita.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/QuantitaProdottoCarrello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/QuantitaProdottoOrdine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/StatoProposta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Scultura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Scultura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +35,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QCZ7w1mEaUTz9dw1VVd7pzoOGT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,8 +47,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Donato/Desktop/intellij_workspace/T2_NegozioAntiquariato/h2-2.1.214.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,13 +55,21 @@
       <recent name="C:\Users\Donato\Desktop\intellij_workspace\T2_NegozioAntiquariato" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="T2_NegozioAntiquariato" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="h2-2.1.214.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/h2-2.1.214.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.h2-2.1.214.jar" />
       </list>
     </recent_temporary>
@@ -84,28 +90,11 @@
       <option name="project" value="LOCAL" />
       <updated>1684860420078</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add database h2:&#10;* added jar&#10;* added buildpath">
-      <created>1684862077606</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684862077606</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Created all class files">
-      <created>1684917568841</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684917568841</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <MESSAGE value="Add database h2:&#10;* added jar&#10;* added buildpath" />
-    <MESSAGE value="All classes created" />
-    <MESSAGE value="Created all class files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created all class files" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>

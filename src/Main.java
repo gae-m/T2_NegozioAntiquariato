@@ -1,5 +1,4 @@
-import entity.CartaDiCredito;
-import entity.Cliente;
+import entity.*;
 
 import java.util.HashMap;
 
@@ -12,7 +11,8 @@ public class Main {
         carta.put(CartaDiCredito.DATA_SCADENZA,"05/31/2024");
 
         Cliente c = new Cliente("bise","password1","3335624180",carta);
-
-        System.out.println(c);
+        Proposta p = new Proposta(0001, 20);
+        Scultura s = new Scultura(001,"David","molto bella", 100, 20);
+        System.out.println(s);
     }
 }
