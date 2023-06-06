@@ -26,7 +26,7 @@ public class BClienteRegistrato {
             user = bufferRead.readLine();
             System.out.println("password: ");
             pass = bufferRead.readLine();
-            if(user.equals(c.getUsername())) {
+            if(user.equals(c.getUsername()) && user.equals(c.getPassword())) {
                 setUsername(user);
                 System.out.println(" Connesso come " + user );
             }else{
