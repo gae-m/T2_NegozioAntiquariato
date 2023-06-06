@@ -1,8 +1,5 @@
 import boundary.BCliente;
-import boundary.BClienteRegistrato;
 import entity.*;
-
-import java.io.IOException;
 import java.util.HashMap;
 
 public class Main {
@@ -13,9 +10,9 @@ public class Main {
         carta.put(CartaDiCredito.COGNOME_INTESTATARIO,"Salzillo");
         carta.put(CartaDiCredito.DATA_SCADENZA,"05/31/2024");
 
-        Cliente c = new Cliente("bise","pass1","3335624180",carta);
+        //Cliente c = new Cliente("bise","pass1","3335624180",carta);
         BCliente bC = BCliente.getInstance();
-        bC.login(c);
+        bC.login();
 
     }
 }

@@ -1,7 +1,5 @@
 package boundary;
 
-import entity.Cliente;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,7 +16,7 @@ public class BCliente {
         return bC;
     }
 
-    public void login(Cliente c) {
+    public void login() {
         String user;
         String pass;
         BGestore bG = BGestore.getInstance();
