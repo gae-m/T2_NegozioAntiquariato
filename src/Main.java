@@ -1,3 +1,4 @@
+import boundary.BCliente;
 import boundary.BClienteRegistrato;
 import entity.*;
 
@@ -13,9 +14,8 @@ public class Main {
         carta.put(CartaDiCredito.DATA_SCADENZA,"05/31/2024");
 
         Cliente c = new Cliente("bise","pass1","3335624180",carta);
-        BClienteRegistrato bC = BClienteRegistrato.getInstance();
+        BCliente bC = BCliente.getInstance();
         bC.login(c);
-
 
     }
 }
